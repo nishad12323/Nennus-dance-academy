@@ -1,0 +1,55 @@
+* {
+  font-family: "comic sans ms";
+  border-radius: 5px;
+}
+
+p {
+  font-size: 16pt;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  transition: 1s;
+}
+
+#footer {
+  background-image: linear-gradient(to right, #732a99ff , #e4796aff);
+  color: white;
+}
+
+.gray {
+  background: rgba(0, 0, 0, 0.1005);
+  width: 75%;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.gallery-image {
+  width: 350;
+  margin: 4px;
+}
+
+.social {
+  height: 4rem;
+}
+
+
+/*phone*/
+
+@media only screen and (max-width: 600px) {
+  .gray {
+    width: 95%;
+  }
+
+  .gallery-image {
+    width: 300;
+  }
+}
+
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url("COMIC.TTF");
+}

@@ -1,3 +1,10 @@
+.container {
+    position: relative;
+    background: transparent;
+    border: none;
+    margin: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -19,6 +26,9 @@ header {
   display: flex;
   justify-content: space-between;
   position: sticky;
+  top: 1px;
+  width: 100%;
+  z-index: 3;
 }
 
 #brand {
@@ -50,6 +60,7 @@ ul li {
   padding: 9px;
   font-size: 1.3rem;
   transition: 0.5s;
+  border: none;
 }
 
 #register:hover {
@@ -73,22 +84,22 @@ ul li {
   -webkit-transform: rotate(-45deg) translate(-6px, 6px);
   transform: rotate(-45deg) translate(-6px, 6px);
   width: 70px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .open .bar2 {
   opacity: 0;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
   transform: rotate(45deg) translate(-6px, -8px);
   width: 70px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
-.bar1 .bar2 .bar3 {
+.bar1, .bar2, .bar3 {
   margin-top: 5px;
   transition: 0.5s;
 }

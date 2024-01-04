@@ -1,55 +1,213 @@
-<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Neenu's dance academy</title>
+  <meta name="author" content="Developer: Nishad Bangole, Designer: Nishad" />
+  <meta name="keywords" content="dance, dance academy, Nennus dance academy, dance school, dance class, kids dance, bollywood, kathak, zumba, folk dances, dance, dallas, plano, frisco, nennusdanceacademy"/>
+  <meta name="description" content="Dance classes for kids and adults">
+  <meta name="author" content="Developer: Nishad Bangole, Designer: Nishad" />
+  <title>Nennu's dance academy</title>
   <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" style="border-radius: 50%;" href="logo.jpg">
+  <script src="script.js" defer></script>
+  <script src="menu.js" defer></script>
 </head>
 
 <body>
   <div class="container">
     <header>
-      <div id="brand"><a style="color: white" href="index.html">Neenu's dance academy</a></div>
+      <div id="brand"><a style="color: white" href="/">Nennu’s Dance Academy LLC</a></div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#upcomming-events">Upcomming events</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact us</a></li>
-          <li><a id="register" href="dance-lessons.html#register">Register now!</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#contact">Contact us</a></li>
+          <li><a href="policies.html">Policies and Procedures</a></li>
+          <li><button id="register" onclick="register()">Register now!</button></li>
         </ul>
       </nav>
 
       <div id="menu-icon" onclick="toggleMobileMenu(this)">
-        <div class="bar1"></div><br>
-        <div class="bar2"></div><br>
+        <div class="bar1"></div>
+        <div class="bar2"></div>
         <div class="bar3"></div>
 
+
+
         <ul class="mobile-menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#upcomming-events">Upcomming events</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact us</a></li>
-          <li><a id="register" href="dance-lessons.html#register">Register now!</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#contact">Contact us</a></li>
+          <li><a href="policies.html">Policies and Procedures</a></li>
+          <li><button id="register" onclick="register()">Register now!</button></li>
         </ul>
       </div>
     </header>
 
-    <center>
-      <img class="header-image" src="neenusDanceAcademy.jpg">
-    </center>
+    <div class="content-container">
+      <center>
+        <div class="header-image-container">
+          <img class="header-image" src="nennusDanceAcademy.jpg">
+        </div>
+      </center>
 
-    <script src="menu.js"></script>
-    <script src="script.js"></script>
+      <center>
+        <img class="logo" src="logo.jpg">
+        <h2 style="color: white; z-index: 2; display: block; position: relative; bottom: 115px; font-size:">Nennu’s
+          Dance Academy LLC</h1>
+          <h3 style="color: white; z-index: 2; display: block; position: relative; bottom: 115px;">(469) 920 4602</h3>
 
+          <button class="header-button" onclick="register()">Register now!</button>
+      </center>
+
+      <center>
+        <div id="pics">
+          <br>
+          <img class="pic" src="poster.jpg">
+          <img class="pic2" src="Collage.png">
+          <br>
+          <br>
+        </div>
+      </center>
+
+      <div id="services">
+        <br>
+        <br>
+        <center>
+          <h1>Services<br>______</h1><br>
+        </center>
+
+        <div class="coloumn-setting">
+          <div class="gray">
+            <br>
+            <center>
+
+              <h2 style="text-align: left; margin-left: 5px;">Dance lessons:</h2>
+              <p style="text-align: left; margin-left: 15px;">&nbsp &nbsp We teach Bollywood, Kathak, Bhangra, Zumba,
+                Folk
+                dances.<br>&nbsp &nbsp We also do event choreography, summer dance camps, wedding dance classes, holiday
+                Happenings and much more!</p>
+              <br>
+
+              <h2 style="text-align: left; margin-left: 5px;">Dance costume rental:</h2>
+              <p style="text-align: left; margin-left: 15px;">&nbsp &nbsp Are you looking for Bollywood costume rentals
+                for your next theme party wedding, event or dance performance?. We have a large inventory of costumes
+                for
+                dance performances ranging from Bollywood, Indian Folk, Garba/Raas, Bhangra, Indo-Western, Contemporary,
+                Lyrica, and Hip-Hop. Our stage props are also available for rent.
+
+                <br>
+                <br>
+                &nbsp &nbsp
+                Our rental inventory is continuously being updated. For our latest collections, contact us!
+
+                <br>
+                <br>
+                &nbsp &nbsp
+                Costume rental fees range from $10– $25 per costume. Shipping is additional. Please allow sufficient
+                time for shipping from Dallas, Texas.
+
+                <br>
+                <br>
+
+                &nbsp &nbsp
+                Please email us your requirements for costumes at <a
+                  href="mailto:neenu.klk@gmail.com">neenu.klk@gmail.com</a>.
+              </p>
+              <br>
+            </center>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div id="about">
+        <br>
+        <br>
+
+        <center>
+          <h1>About<br>___</h1><br>
+
+         <div class="gray">
+            <br>
+
+            <img class="profile" src="profile.png">
+
+            <p>Nennu Sharma is founder, director choreographer at Nennu’s dance academy. <br><br>At Nennu’s academy,
+              our vision is to educate, to build confidence and self-esteem, so the individual student can accomplish
+              our goals. We encourage children of all levels to uplift by giving feedback to assess what need to
+              work in positive progress and to make it easy for students to discover their potential and be expectant
+              for growth in classes and work for every age from toddlers to seniors.<br>Nennu’s Dance Academy has an
+              experienced faculty who are passionate and trained to create an atmosphere of joy, acceptance and
+              dedication within the dance studio.<br>Our students have grown in dance and performance skills, self
+              confidence , physical health, self motivation and collaboration skills.</p>
+            <br>
+          </div>
+      </div>
+      </center>
+
+      <center>
+        <div id="contact">
+          <br><br>
+          <h1>Contact<br>_____</h1><br>
+
+          <div class="gray">
+            <br>
+            <div style="text-align: left; margin-left: 45px;">
+              <p><strong>Phone:</strong> <a href="tel:+14699204602" style="text-decoration: none;">(469)
+                  920 4602</a></p><br>
+              <p><strong>Email:</strong> <a href="mailto:neenu.klk@gmail.com"
+                  style="text-decoration: none;">neenu.klk@gmail.com</a></p><br>
+              <p><strong>Studio location:</strong> <a href="https://www.google.com/maps/@33.1240761,-96.8036865,19.25z"
+                  style="text-decoration: none;">5580 Preston rd. #101 Frisco,TX 75034</a></p><br>
+              <p><strong>Location 2:</strong> <a href="https://www.google.com/maps/@33.2110445,-96.8804671,17z"
+                  style="text-decoration: none;">Intersection of FM 423 and rockhill parkway Frisco, TX 75068</a></p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </center>
+
+      <div id="social">
+        <br>
+        <br>
+        <center>
+          <h1>Social<br>_____</h1>
+          <br>
+
+          <a href="https://www.facebook.com/profile.php?id=100076203700724"><img class="social" src="facebook.png"></a>
+          <a href="https://www.instagram.com/nennus_dance_academy/"><img class="social" src="instagram.png"></a>
+        </center>
+      </div>
+
+      <div id="footer">
+        <br>
+        <center>
+          <p style="font-size: 1.1rem">(469) 920 4602<br>neenu.klk@gmail.com</p>
+          <br>
+          <p style="font-size: 1.1rem">&copy Copyright 2022 Nennu's Dance Academy LLC - All Rights Reserved</p><br>
+
+          <p style=" font-size: 1.1rem;">
+            <a href="policies.html" style="color: #fff; text-decoration: none;">Policies and Procedures</a>
+          </p><br>
+
+          <p style="font-family: Arial; font-size: 0.9rem;">Created by Nishad Bangole</p>
+        </center>
+        <br>
+      </div>
+    </div>
   </div>
+
+
+  <script src="menu.js"></script>
+  <script src="script.js"></script>
+
 </body>
 
 </html>
